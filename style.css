@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #18191a;
+}
+.post-section {
+    width: 100%;
+}
+
+.post-section .title {
+    color: #fff;
+    margin-left: 50%;
+    font-size: 40px;
+}
+
+.post-section .post-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.post-section .post-block li {
+    padding: 16px;
+    margin: 0 0 16px 0;
+    width: 400px;
+    height: 150px;
+    background-color: #242526;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.post-block .post-block__title {
+    margin: 0;
+    color: #e4e3eb;
+}
+
+.post-block .post-block__body {
+    color: #e4e6cb;
+}
